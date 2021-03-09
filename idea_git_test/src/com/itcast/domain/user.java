@@ -7,6 +7,12 @@ public class user implements Serializable {
     String name;
     double money;
 
+    public user(Integer id , String name , double money) {
+        this.id = id;
+        this.name = name;
+        this.money = money;
+    }
+
     public Integer getId() {
         return id;
     }
